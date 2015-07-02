@@ -2,6 +2,9 @@
   "name": "agdrily",
   "version": "0.0.0",
   "dependencies": {
+    "express": "^4.13.0",
+    "express-handlebars": "^2.0.1",
+    "markdown": "^0.5.0",
     "seedrandom": "^2.4.0",
     "sodb": "^0.1.0"
   },
@@ -16,6 +19,7 @@
     "grunt-shell": "^1.1.2",
     "jscover": "^1.0.0",
     "mocha": "^2.2.5",
-    "mocha-lcov-reporter": "0.0.2"
+    "mocha-lcov-reporter": "0.0.2",
+    "supertest": "^1.0.1"
   }
 }

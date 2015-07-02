@@ -1,0 +1,17 @@
+{
+  "files": {
+    "assets/scss/core.scss": {
+      "output": "assets/css/core.css",
+      "format": "scss"
+    },
+    "assets/js/layout.coffee": {
+      "output": "assets/js/layout.js",
+      "format": "coffee"
+    }
+  },
+
+  "autowatch": [
+    "assets/scss/core.scss",
+    "assets/js/layout.coffee"
+  ]
+}
