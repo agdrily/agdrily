@@ -1,11 +1,11 @@
 ExpressHandlebars  = require 'express-handlebars'
-markdown = require 'markdown'
+markdown = require('markdown').markdown
 
 handlebars = ExpressHandlebars.create({
   defaultLayout: 'main'
   helpers: {
     md: (string) ->
-      markdown.parse(string)
+      markdown.toHTML(string)
 
     eif: (v1, v2, options) ->
       if v1 == v2

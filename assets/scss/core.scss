@@ -1,0 +1,41 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+body{
+  background-color: #444;
+  color:#fff;
+}
+
+.home{
+  text-align:center;
+  margin-top:15%;
+
+  .button-list{
+    width:15%;
+    margin:auto;
+  }
+}
+
+.button-list{
+  list-style:none;
+  padding:0px;
+  margin:0px;
+
+  li{
+    margin-bottom:10px;
+    
+    a{
+      display:block;
+      width:80%;
+      text-align:center;
+      margin:auto;
+      padding:5px;
+      text-decoration:none;
+      color:#fff;
+      border:#fff solid 1px;
+
+      @include border-radius(5px);
+      @include two-stop-gradient($grass, darken($grass, 10%));
+    }
+  }
+}

@@ -8,8 +8,10 @@ app.use '/assets', express.static('assets')
 
 # Load and require routers
 BaseRouter = require './routers/base-router'
+DocsRouter = require './routers/docs-router'
 
 app.use '/', BaseRouter
+app.use '/docs', DocsRouter
 
 # Load handlebars
 Handlebars = require './handlebars'
