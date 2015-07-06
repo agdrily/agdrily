@@ -50,5 +50,5 @@ module.exports = (grunt) ->
 
 
   grunt.registerTask 'test', ['mochaTest:test']
-  grunt.registerTask 'testci', ['mochaTest', 'shell:coveralls']
+  grunt.registerTask 'coverage', ['mochaTest:coverage', 'shell:coveralls']
   grunt.registerTask 'launch', ['coffee', 'shell:launch']

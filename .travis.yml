@@ -2,5 +2,6 @@ language: node_js
 node_js:
   - "0.12"
 sudo: false
-script: "grunt testci"
-after_success: "grunt coveralls"
+script:
+  - "grunt test"
+  - "grunt coverage"
