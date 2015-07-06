@@ -2,6 +2,7 @@
   "name": "agdrily",
   "version": "0.0.0",
   "dependencies": {
+    "coffee-script": "^1.9.2",
     "express": "^4.13.0",
     "express-handlebars": "^2.0.1",
     "fs-readdir-recursive": "^0.1.2",
@@ -12,7 +13,6 @@
   "devDependencies": {
     "chai": "^3.0.0",
     "coffee-coverage": "^0.6.2",
-    "coffee-script": "^1.9.2",
     "coveralls": "^2.11.2",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
