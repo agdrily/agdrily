@@ -23,7 +23,7 @@ body{
 
   li{
     margin-bottom:10px;
-    
+
     a{
       display:block;
       width:80%;
@@ -37,5 +37,16 @@ body{
       @include border-radius(5px);
       @include two-stop-gradient($grass, darken($grass, 10%));
     }
+  }
+}
+
+.docs{
+  width:80%;
+  margin:auto;
+
+  .logo{
+    margin:auto;
+    width:20%;
+    display:block;
   }
 }
