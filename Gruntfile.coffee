@@ -46,9 +46,14 @@ module.exports = (grunt) ->
         coveralls: {
           command: "cd ./lib-cov && cat ./lcov.txt | #{path.join(__dirname, 'node_modules', '.bin', 'coveralls')}"
         }
+
+        launch: {
+          command: 'node server.js'
+        }
     }
 
 
   grunt.registerTask 'test', ['coffee:source', 'mochaTest:test']
   grunt.registerTask 'testapp', ['coffee', 'shell:testapp']
   grunt.registerTask 'testci', ['coffee:source', 'shell:jscover', 'mochaTest', 'shell:coveralls']
+  grunt.registerTask 'launch', ['coffee', 'shell:launch']
