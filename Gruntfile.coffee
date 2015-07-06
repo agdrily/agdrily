@@ -46,10 +46,6 @@ module.exports = (grunt) ->
         launch: {
           command: 'node server.js'
         }
-
-        runCoverage: {
-          command: "#{path.join(__dirname, 'node_modules', '.bin', 'mocha')} --recursive --require ./support/coffee-coverage.js --reporter html-cov \"tests/**/*.coffee\" > coverage.html"
-        }
     }
 
 
