@@ -1,7 +1,5 @@
 # Concept
 
-A general outline of the plan
-
 ## Shameless Admissions
 
 Before any ideas get put to paper lets admit exactly where these ideas came from and take it from there.
@@ -15,8 +13,6 @@ Before any ideas get put to paper lets admit exactly where these ideas came from
 The aim from a meta perspective is have the game developed open source and allow anyone through github to propose changes.
 
 You are the assigned administrator of a colony and your job is to make the colony bigger by any means you see fit.
-
-Your colony core are dropped (setup) at a location on a square grid and you then build out from that.
 
 ## Setting
 

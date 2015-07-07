@@ -1,6 +1,6 @@
 # Maps
 
-Maps will be procedurally generated based on the seed for that {{GAMENAME}} map tile.
+Maps will be procedurally generated based on the seed for that agdrily map tile.
 
 The colony core will always come through at sea level
 
@@ -18,5 +18,6 @@ Seeds will be generated for each tile.
 
 The world map will be generated using the seed `agdrily`
 
-abcdefghijklmnopqrstuvwxyz
-0
+# Generation
+
+Map generation will...
