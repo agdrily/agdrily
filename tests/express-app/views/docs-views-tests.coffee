@@ -14,3 +14,9 @@ describe 'docs/show', ->
     request(app)
       .get('/docs/generators/map.md')
       .expect(200, done)
+
+  it 'should put the index on every page', (done) ->
+    expect(app.locals.docs.index).not.to.equal undefined
+    request(app)
+      .get('/docs')
+      .expect(/<h1>agdrily docs<\/h1>/, done)

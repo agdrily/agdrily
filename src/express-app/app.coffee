@@ -1,5 +1,6 @@
 # Require Express and path
 express = require 'express'
+fs = require 'fs'
 path = require 'path'
 
 # Create the app
@@ -25,7 +26,11 @@ app.set 'views', path.join(__dirname, '..', '..', 'views')
 # Default locals
 app.locals = {
   title: 'agdrily'
+  docs: {}
 }
+
+fs.readFile path.join(__dirname, '..', '..', 'docs', 'index.md'), (err, data) ->
+  app.locals.docs.index = data.toString()
 
 # Export the app
 module.exports = app
