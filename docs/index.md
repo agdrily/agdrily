@@ -7,3 +7,5 @@
   - [resources](/docs/game_components/resources.md)
 - Generators
   - [map](/docs/generators/map.md)
+- Viewers
+  - [map](/docs/viewers/map.md)

@@ -8,6 +8,8 @@ Before any ideas get put to paper lets admit exactly where these ideas came from
  - [Rimworld](http://www.rimworldgame.com/)
  - [Prison Architect](http://www.introversion.co.uk/prisonarchitect/)
 
+These are all great games that [I](http://arcath.net) have sunk many hours into.
+
 ## Core idea
 
 The aim from a meta perspective is have the game developed open source and allow anyone through github to propose changes.
@@ -16,7 +18,7 @@ You are the assigned administrator of a colony and your job is to make the colon
 
 ## Setting
 
-agdrily is a naturally occuring dyson sphere. Its internal surface is so massive that even with tens of thousands of colonies they can be so spaced out that none will touch (read have to be rendered on another players screen).
+agdrily is a naturally occurring dyson sphere. Its internal surface is so massive that even with tens of thousands of colonies they can be so spaced out that none will touch (read have to be rendered on another players screen).
 
 The colony core is a large spike that is rammed through the outer wall of agdrily and is visible on both sides. Players can build at any level
 
