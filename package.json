@@ -1,6 +1,7 @@
 {
   "name": "agdrily",
   "version": "0.0.0",
+  "repository": "http://github.com/agdrily/agdrily",
   "dependencies": {
     "coffee-script": "^1.9.2",
     "express": "^4.13.0",
