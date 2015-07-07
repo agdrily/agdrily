@@ -4,9 +4,9 @@
 
 Before any ideas get put to paper lets admit exactly where these ideas came from and take it from there.
 
- - Factorio
- - Rimworld
- - Prison Architect
+ - [Factorio](http://www.factorio.com/)
+ - [Rimworld](http://www.rimworldgame.com/)
+ - [Prison Architect](http://www.introversion.co.uk/prisonarchitect/)
 
 ## Core idea
 
