@@ -12,9 +12,16 @@ class LevelMap
       if (i < @terrainStart || (i > @terrainStop and i > 13))
         @levels[i] = 0
       else
-        if i < 13 and i > 9 and @terrainStop < i
+        if i <= 13 and i > 9 and @terrainStop < i
           @levels[i] = 2
         else
           @levels[i] = 1
+
+  height: ->
+    height = 19 - @levels.reverse().indexOf(1)
+    if height < 13
+      height = 13
+
+    return height
 
 module.exports = LevelMap
