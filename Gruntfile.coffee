@@ -4,6 +4,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.loadNpmTasks('grunt-mocha-test')
   grunt.loadNpmTasks('grunt-shell')
+  grunt.loadNpmTasks('grunt-codo')
 
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json'),
@@ -18,6 +19,19 @@ module.exports = (grunt) ->
         ext: '.js'
       }
     },
+
+    codo: {
+      options:
+        name: "agdrily"
+        title: "agdrily Code Documentation"
+        undocumented: yes
+        stats: yes
+      source:
+        src: [
+          "src/"
+        ]
+        dest: "codo/"
+    }
 
     mochaTest: {
       test: {
@@ -46,9 +60,14 @@ module.exports = (grunt) ->
         launch: {
           command: 'node server.js'
         }
+
+        npmInstall: {
+          command: 'npm install'
+        }
     }
 
 
   grunt.registerTask 'test', ['mochaTest:test']
   grunt.registerTask 'coverage', ['mochaTest:coverage', 'shell:coveralls']
-  grunt.registerTask 'launch', ['shell:launch']
+  grunt.registerTask 'launch', ['codo:source', 'shell:launch']
+  grunt.registerTask 'install', ['shell:npmInstall', 'codo:source']

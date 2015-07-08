@@ -1,14 +1,14 @@
 # Concept
 
-A general outline of the plan
-
 ## Shameless Admissions
 
 Before any ideas get put to paper lets admit exactly where these ideas came from and take it from there.
 
- - Factorio
- - Rimworld
- - Prison Architect
+ - [Factorio](http://www.factorio.com/)
+ - [Rimworld](http://www.rimworldgame.com/)
+ - [Prison Architect](http://www.introversion.co.uk/prisonarchitect/)
+
+These are all great games that [I](http://arcath.net) have sunk many hours into.
 
 ## Core idea
 
@@ -16,11 +16,9 @@ The aim from a meta perspective is have the game developed open source and allow
 
 You are the assigned administrator of a colony and your job is to make the colony bigger by any means you see fit.
 
-Your colony core are dropped (setup) at a location on a square grid and you then build out from that.
-
 ## Setting
 
-agdrily is a naturally occuring dyson sphere. Its internal surface is so massive that even with tens of thousands of colonies they can be so spaced out that none will touch (read have to be rendered on another players screen).
+agdrily is a naturally occurring dyson sphere. Its internal surface is so massive that even with tens of thousands of colonies they can be so spaced out that none will touch (read have to be rendered on another players screen).
 
 The colony core is a large spike that is rammed through the outer wall of agdrily and is visible on both sides. Players can build at any level
 

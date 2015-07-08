@@ -2,6 +2,14 @@ body {
   background-color: #444;
   color: #fff; }
 
+a {
+  text-decoration: none;
+  color: #39b54a;
+  transition: color 0.2s; }
+
+a:hover {
+  color: #1a5422; }
+
 .home {
   text-align: center;
   margin-top: 15%; }
@@ -34,9 +42,20 @@ body {
       background: linear-gradient(#39b54a, #2d8e3a); }
 
 .docs {
-  width: 80%;
+  width: 70%;
   margin: auto; }
   .docs .logo {
     margin: auto;
     width: 20%;
     display: block; }
+  .docs .index {
+    position: fixed;
+    top: 0px;
+    left: 5px;
+    width: 15%; }
+    .docs .index ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+      .docs .index ul ul {
+        padding-left: 10px; }

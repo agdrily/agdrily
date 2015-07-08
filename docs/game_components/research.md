@@ -3,7 +3,7 @@
 Research is performed in labs which have a level, each research has a total time split between the levels. for example
 
   Research takes
-  10 minues level 2
+  10 minutes level 2
   20 minutes level 1
 
   and you have

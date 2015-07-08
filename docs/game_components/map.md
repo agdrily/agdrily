@@ -1,3 +1,7 @@
+# Maps
+
+All maps are _infinate_ or near to, with agdrily having a radius of 1AU the surface area will be in the region of 12.5AU^2 this gives more than enough space for the colony cores to be an extreme distance apart.
+
 ## levels
 
  - 20 - OPEN
@@ -30,4 +34,4 @@ The colony core stretches from 4 to 16 making it 13 levels tall.
 
 Pipes can be built on any level as long as they connect to either a building connector, a multi-level coupler, the terrain or another pipe no more than 5 from a any other connector.
 
-Buildings can only be built on terrain in an empty space for their size.
+Buildings can only be built on flat terrain in an empty space for their size.
