@@ -13,9 +13,11 @@ app.use '/codo', express.static('codo')
 # Load and require routers
 BaseRouter = require './routers/base-router'
 DocsRouter = require './routers/docs-router'
+WorldMapRouter = require './routers/world-map-router'
 
 app.use '/', BaseRouter
 app.use '/docs', DocsRouter
+app.use '/world_map', WorldMapRouter
 
 # Load the custom handlebars module from /src/express-app/handlebars.coffee and set it up as the view engine.
 Handlebars = require './handlebars'
