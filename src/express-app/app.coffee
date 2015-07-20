@@ -11,11 +11,13 @@ app.use '/assets', express.static('assets')
 app.use '/codo', express.static('codo')
 
 # Load and require routers
+ApiRouter = require './routers/api-router'
 BaseRouter = require './routers/base-router'
 DocsRouter = require './routers/docs-router'
 WorldMapRouter = require './routers/world-map-router'
 
 app.use '/', BaseRouter
+app.use "/api/#{ApiRouter.apiVersion}", ApiRouter
 app.use '/docs', DocsRouter
 app.use '/world_map', WorldMapRouter
 

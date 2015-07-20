@@ -17,8 +17,8 @@ class MapGenerator
 
     @map = new sodb
 
-    for i in [-3..2]
-      for j in [-3..2]
+    for i in [-2..2]
+      for j in [-2..2]
         @map.add(new LevelMap(i, j, 4, 13))
 
 module.exports = MapGenerator

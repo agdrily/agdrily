@@ -59,3 +59,7 @@ a:hover {
       padding: 0px; }
       .docs .index ul ul {
         padding-left: 10px; }
+
+#mainCanvas {
+  width: 100%;
+  height: 100%; }

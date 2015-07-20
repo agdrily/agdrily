@@ -13,10 +13,10 @@ describe 'WorldMapViewer', ->
     expect(viewer.generator).not.to.equal undefined
 
   it 'should allow you to select an area', ->
-    area = viewer.area(-3, -3, 2, 2)
-    expect(area.tiles.length).to.equal 36
+    area = viewer.area(-2, -2, 2, 2)
+    expect(area.tiles.length).to.equal 25
 
   it 'should generate a height map', ->
-    area = viewer.area(-3, -3, 2, 2)
+    area = viewer.area(-2, -2, 2, 2)
     for height in area.heightMap
       expect(height.height).to.equal 13
