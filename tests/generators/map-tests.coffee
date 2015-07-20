@@ -19,7 +19,7 @@ describe 'MapGenerator', ->
     expect(gen.rng.int32()).to.equal 442141495
 
   it 'should have an empty flat area in the middle', ->
-    expect(gen.map.count()).to.equal 36
+    expect(gen.map.count()).to.equal 25
     origin = gen.map.findOne({x: 0}, {y: 0})
     expect(origin.levels[0]).to.equal 0
     expect(origin.levels[1]).to.equal 0
